@@ -1,71 +1,90 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    
-<title>lancePetrisko/myProjects</title>
+    <title>lancePetrisko/myProjects</title>
 
-<link rel="stylesheet" href="app.css"/>
-</head>
-<body>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+  <body>
+    <!-- Scrolling "Lance Petrisko" header -->
+    <marquee behavior="scroll" direction="left" scrollamount="1">
+      Slow Scrolling>
+      <h1>LANCE PETRISKO</h1>
+    </marquee>
 
-<!-- Scrolling "Lance Petrisko" header -->
-<marquee behavior="scroll" direction="left" scrollamount="1">Slow Scrolling>
-    <h1>LANCE PETRISKO</h1>
-</marquee>
+    <nav class="navbar">
+      <!-- Navigatater bar class containing "navbar"-->
+      <ul>
+        <!-- Un-orded list-->
+        <li><a href="index.html">ABOUT ME</a></li>
+        <!--When Surrounded in "a" tags it creates hyperlink to other page-->
+        <li><a href="myProjects.html">MY PROJECTS</a></li>
+        <!--BTW, "li" just stands for list item-->
+      </ul>
+    </nav>
 
-<nav class ="navbar"> <!-- Navigatater bar class containing "navbar"-->
-    <ul> <!-- Un-orded list-->
-        <li><a href="index.html">ABOUT ME</a></li> <!--When Surrounded in "a" tags it creates hyperlink to other page-->
-        <li><a href="myProjects.html">MY PROJECTS</a></li> <!--BTW, "li" just stands for list item-->
-    </ul> 
-</nav>
-
-<main>
-    <section class="projects">
+    <main>
+      <section class="projects">
         <h2>PROJECTS</h2>
 
         <article class="project-card">
-            <div class="project-media">
-                <img src="Images/ciscoUCS_c240_m3.jpg" alt="Screenshot of Project One">
-            </div>
-            <div class="project-content">
-                <h3>TrueNAS Scale Home Server</h3>
-                <p>Self hosted services, through my Cisco UCS C240 M3 Enterprise server. I am a hardware ethusisist by heart and love everything data hoarding.</p>
-                <p>Tools: TrueNAS, Docker, Wireguard</p>
-            </div>
+          <div class="project-media">
+            <img
+              src="Images/homelabProject/ciscoUCS_c240_m3.jpg"
+              alt="Screenshot of Project One"
+            />
+          </div>
+          <div class="project-content">
+            <h3>TrueNAS Scale Home Server</h3>
+            <p>
+              Self hosted services, through my Cisco UCS C240 M3 Enterprise
+              server. I am a hardware ethusisist by heart and love everything
+              data hoarding.
+            </p>
+            <p>Tools: TrueNAS, Docker, Wireguard</p>
+          </div>
         </article>
 
         <article class="project-card reverse">
-            <div class="project-media">
-                <img src="images/project-2.jpg" alt="Screenshot of Project Two">
-            </div>
-            <div class="project-content">
-                <h3>Midnight Hostng</h3>
-                <p>Midnight Hosting is a game server hosting platform using Pterodactyl designed for small communities and friends who want simple, affordable hosting. With automated billing to make deploying and managing servers straightforward and reliable without me having to manage it all.</p>
-                <p>The backend is Python and Flask, with SQLite handling user data and internal records</p>
-            </div>
+          <div class="project-media">
+            <img src="images/project-2.jpg" alt="Screenshot of Project Two" />
+          </div>
+          <div class="project-content">
+            <h3>Midnight Hostng</h3>
+            <p>
+              Midnight Hosting is a game server hosting platform using
+              Pterodactyl designed for small communities and friends who want
+              simple, affordable hosting. With automated billing to make
+              deploying and managing servers straightforward and reliable
+              without me having to manage it all.
+            </p>
+            <p>
+              The backend is Python and Flask, with SQLite handling user data
+              and internal records
+            </p>
+          </div>
         </article>
 
         <article class="project-card">
-            <div class="project-media">
-                <img src="images/project-3.jpg" alt="Screenshot of Project Three">
-            </div>
-            <div class="project-content">
-                <h3>My Third Project</h3>
-                <p>(Placeholder description)</p>
-                <p>(Placeholder)</p>
-            </div>
+          <div class="project-media">
+            <img src="images/project-3.jpg" alt="Screenshot of Project Three" />
+          </div>
+          <div class="project-content">
+            <h3>My Third Project</h3>
+            <p>(Placeholder description)</p>
+            <p>(Placeholder)</p>
+          </div>
         </article>
-    </section>
-</main>
+      </section>
+    </main>
+  </body>
 
-
-</body>
-
-<script src="app.js"></script>
-
+  <script src="app.js"></script>
 </html>
