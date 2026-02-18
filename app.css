@@ -63,6 +63,11 @@ p {
   font-family: "Roboto Mono", monospace;
 }
 
+li {
+  color: rgb(238, 238, 238);
+  font-family: "Roboto Mono", monospace;
+}
+
 h3 {
   color: rgb(238, 238, 238);
   font-family: "Roboto Mono", monospace;
